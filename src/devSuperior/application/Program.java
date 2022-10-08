@@ -60,11 +60,11 @@ public class Program {
             cont += 1;
 
             if (championOne.getLife() == 0 || championTwo.getLife() == 0){
+
+                System.out.println();
+                System.out.println("FIM DO COMBATE!!");
                 break;
             }
-
-            System.out.println();
-            System.out.println("FIM DO COMBATE!!");
 
             sc.close();
         }
