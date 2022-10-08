@@ -1,5 +1,7 @@
 package devSuperior.application;
 
+import devSuperior.entities.Champion;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -8,5 +10,10 @@ public class Program {
 
         Locale.setDefault(Locale.ENGLISH);
         Scanner sc = new Scanner(System.in);
+        Champion c1 = new Champion();
+        c1.setName("Darius");
+
+        System.out.println(c1);
+
     }
 }
